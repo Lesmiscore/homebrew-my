@@ -3,7 +3,7 @@ class YtdlPatched < Formula
   homepage "https://ytdl-org.github.io/youtube-dl/"
   url "https://nao20010128nao.github.io/ytdl-patched/youtube-dl.tar.gz"
   sha256 ""
-  version "1566228858"
+  version "1566271260"
 
   head do
     url "https://github.com/nao20010128nao/void.git"
