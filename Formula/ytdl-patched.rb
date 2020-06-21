@@ -2,8 +2,8 @@ class YtdlPatched < Formula
   desc "Download YouTube videos from the command-line"
   homepage "https://ytdl-org.github.io/youtube-dl/"
   url "https://nao20010128nao.github.io/ytdl-patched/youtube-dl.tar.gz"
-  sha256 "694037922efc3cdd7ca15f69a6f29e727e4ffb5cec35411526bab4653a4331d4"
-  version "1592654866"
+  sha256 "4f35247604160ea10b36e3f8fcea49a92eefe1f77d6093e5ff29f25df349fe67"
+  version "1592698619"
 
   head do
     url "https://github.com/nao20010128nao/void.git"
