@@ -1,4 +1,4 @@
-class AdvComp < Formula
+class Advcomp < Formula
   desc "advancecomp with newer zopfli"
   homepage "https://github.com/nao20010128nao/advancecomp"
   url "https://github.com/nao20010128nao/advancecomp/archive/f1dd23d313f736a9b64d3229328ae2f1dff4ca60.zip"
