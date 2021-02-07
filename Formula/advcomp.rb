@@ -15,6 +15,7 @@ class Advcomp < Formula
 
   def install
     system "./autogen.sh"
+    system "./autogen.sh"
     system "./configure", "--prefix=#{prefix}"
     system "make"
     system "make", "install"
