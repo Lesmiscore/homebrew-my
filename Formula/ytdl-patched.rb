@@ -1,24 +1,27 @@
 class YtdlPatched < Formula
-  desc "Download YouTube videos from the command-line"
-  homepage "https://ytdl-org.github.io/youtube-dl/"
-  url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1623902216/youtube-dl.tar.gz"
-  sha256 ""
-  version "1623902216"
+  include Language::Python::Virtualenv
 
-  head do
-    url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1623902216/youtube-dl.tar.gz"
-  end
+  desc "Download YouTube videos from the command-line"
+  homepage "https://github.com/ytdl-patched/ytdl-patched"
+  url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1623902216/youtube-dl.tar.gz"
+  sha256 "2d5c39f56526f31c04234a4772478e4ccfadf09f7fc880fe6d26411895a1723d"
+  license "Unlicense"
 
   bottle :unneeded
 
+  depends_on "python@3.9"
+
   def install
-    system "wget", "https://nao20010128nao.github.io/ytdl-patched/youtube-dl.tar.gz" if build.head?
-    system "tar", "-xzvf", "youtube-dl.tar.gz", "--strip-components=1" if build.head?
-    bin.install "youtube-dl"
+    virtualenv_install_with_resources
+    man1.install_symlink libexec/"share/man/man1/youtube-dl.1" => "youtube-dl.1"
+    bash_completion.install libexec/"etc/bash_completion.d/youtube-dl.bash-completion"
+    fish_completion.install libexec/"etc/fish/completions/youtube-dl.fish"
   end
 
   test do
-    system "#{bin}/youtube-dl", "--simulate", "https://www.youtube.com/watch?v=he2a4xK8ctk"
-    system "#{bin}/youtube-dl", "--simulate", "--yes-playlist", "https://www.youtube.com/watch?v=iCkYw3cRwLo&list=LLnHXLLNHjNAnDQ50JANLG1g"
+    # commit history of homebrew-core repo
+    system "#{bin}/youtube-dl", "--simulate", "https://www.youtube.com/watch?v=pOtd1cbOP7k"
+    # homebrew playlist
+    system "#{bin}/youtube-dl", "--simulate", "--yes-playlist", "https://www.youtube.com/watch?v=pOtd1cbOP7k&list=PLMsZ739TZDoLj9u_nob8jBKSC-mZb0Nhj"
   end
 end
