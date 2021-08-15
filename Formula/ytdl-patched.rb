@@ -5,7 +5,7 @@ class YtdlPatched < Formula
   homepage "https://github.com/ytdl-patched/ytdl-patched"
   url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1628994378/yt_dlp-2021.08.15.1628994378-wheel.tar.gz"
   version "1628994378"
-  sha256 "34c496dee19a59d5f09be216e92498fb70f1f675ddfb130194ac0cd64f8c2f3c"
+  sha256 "33cf727ca420ac575da782686072c3409fc0bca8c295a87fa893ac1a5efa4c7b"
   license "Unlicense"
 
   bottle :unneeded
