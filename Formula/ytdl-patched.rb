@@ -3,9 +3,9 @@ class YtdlPatched < Formula
 
   desc "Download YouTube videos from the command-line"
   homepage "https://github.com/ytdl-patched/ytdl-patched"
-  url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1629339847/yt_dlp-2021.08.19.1629339847-wheel.tar.gz"
-  version "1629339847"
-  sha256 "e14744d10220c8263ca359e44c22820be9446040be4af3541648a04ed4b58ff7"
+  url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1629357532/yt_dlp-2021.08.19.1629357532-wheel.tar.gz"
+  version "1629357532"
+  sha256 "8af2f06702ddad984a11800c31af18282a9d8f64d4b17fa4e717ed9ef6e8de28"
   license "Unlicense"
 
   bottle :unneeded
