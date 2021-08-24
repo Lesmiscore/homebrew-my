@@ -1,7 +1,7 @@
 class YtdlPatched < Formula
   include Language::Python::Virtualenv
 
-  desc "Download YouTube videos from the command-line"
+  desc "youtube-dl fork fork fork with some more features"
   homepage "https://github.com/ytdl-patched/ytdl-patched"
   url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1629785275/yt_dlp-2021.08.24.1629785275-wheel.tar.gz"
   version "1629785275"
