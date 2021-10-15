@@ -10,7 +10,7 @@ class YtdlPatched < Formula
 
   bottle :unneeded
 
-  depends_on "python@3.9"
+  depends_on "python@3.10"
 
   def install
     virtualenv_install_with_resources
