@@ -3,9 +3,9 @@ class YtdlPatched < Formula
 
   desc "youtube-dl fork fork fork with some more features"
   homepage "https://github.com/ytdl-patched/ytdl-patched"
-  url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1634554392/yt_dlp-wheel.tar.gz"
-  version "1634554392"
-  sha256 "96216c54cce1f579ace860a1b34bf458fa211d8ccc1521be6320183074955bd1"
+  url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1634572591/yt_dlp-wheel.tar.gz"
+  version "1634572591"
+  sha256 "be6eaa06929455ebdb6c17b747e27e0b21470be4f8238dda8660b14d8c2f6afa"
   license "Unlicense"
 
   bottle :unneeded
@@ -13,18 +13,18 @@ class YtdlPatched < Formula
   depends_on "python@3.9"
 
   resource "mutagen" do
-    url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1634554392/yt_dlp-wheel.tar.gz"
-    sha256 "96216c54cce1f579ace860a1b34bf458fa211d8ccc1521be6320183074955bd1"
+    url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1634572591/yt_dlp-wheel.tar.gz"
+    sha256 "be6eaa06929455ebdb6c17b747e27e0b21470be4f8238dda8660b14d8c2f6afa"
   end
 
   resource "pycryptodomex" do
-    url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1634554392/yt_dlp-wheel.tar.gz"
-    sha256 "96216c54cce1f579ace860a1b34bf458fa211d8ccc1521be6320183074955bd1"
+    url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1634572591/yt_dlp-wheel.tar.gz"
+    sha256 "be6eaa06929455ebdb6c17b747e27e0b21470be4f8238dda8660b14d8c2f6afa"
   end
 
   resource "websockets" do
-    url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1634554392/yt_dlp-wheel.tar.gz"
-    sha256 "96216c54cce1f579ace860a1b34bf458fa211d8ccc1521be6320183074955bd1"
+    url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1634572591/yt_dlp-wheel.tar.gz"
+    sha256 "be6eaa06929455ebdb6c17b747e27e0b21470be4f8238dda8660b14d8c2f6afa"
   end
 
   def install
