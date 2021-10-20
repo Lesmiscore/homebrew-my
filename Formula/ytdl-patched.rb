@@ -8,8 +8,6 @@ class YtdlPatched < Formula
   sha256 "a32f6644ace1df7a5f597e90fad3c83bb7b6e107272ca34608c9b0fa0bca6b9d" # replace-marker
   license "Unlicense"
 
-  bottle :unneeded
-
   depends_on "python@3.9"
 
   resource "mutagen" do
