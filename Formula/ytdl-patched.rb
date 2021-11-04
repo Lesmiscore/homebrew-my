@@ -26,6 +26,7 @@ class YtdlPatched < Formula
   end
 
   def install
+    ENV["YTDL_PATCHED_INSTALLED_VIA_HOMEBREW"] = "yes"
     virtualenv_install_with_resources
     # man1.install_symlink libexec/"share/man/man1/youtube-dl.1" => "youtube-dl.1"
     # bash_completion.install libexec/"etc/bash_completion.d/youtube-dl.bash-completion"
