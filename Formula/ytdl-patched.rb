@@ -3,9 +3,9 @@ class YtdlPatched < Formula
 
   desc "youtube-dl fork fork fork with some more features"
   homepage "https://github.com/ytdl-patched/ytdl-patched"
-  url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1646282375/yt_dlp-wheel.tar.gz" # replace-marker
-  version "1646282375" # replace-marker
-  sha256 "0bf1d0221872763ca56745760f29d498adb7445910498785472e47ed698a9158" # replace-marker
+  url "https://github.com/ytdl-patched/ytdl-patched/releases/download/1646287479/yt_dlp-wheel.tar.gz" # replace-marker
+  version "1646287479" # replace-marker
+  sha256 "1427926244cf0f11420b1951b1326e7b0daa8a0f00e3a89f2772c317cc0a501b" # replace-marker
   license "Unlicense"
 
   depends_on "python@3.9"
