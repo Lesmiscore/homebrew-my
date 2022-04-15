@@ -9,8 +9,6 @@ class Advcomp < Formula
     url "https://github.com/nao20010128nao/advancecomp/archive/master.zip"
   end
 
-  bottle :unneeded
-
   depends_on "zlib"
 
   def install
