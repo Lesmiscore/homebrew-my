@@ -1,8 +1,8 @@
 class Advcomp < Formula
   desc "advancecomp with newer zopfli"
   homepage "https://github.com/nao20010128nao/advancecomp"
-  url "https://github.com/nao20010128nao/advancecomp/archive/f1dd23d313f736a9b64d3229328ae2f1dff4ca60.zip"
-  sha256 "a9581b42892d1a784350c8538843eec02c49406791e0e805282d4f3e4efa3bf0"
+  url "https://github.com/nao20010128nao/advancecomp/archive/v2.1.tar.gz"
+  sha256 "6113c2b6272334af710ba486e8312faa3cee5bd6dc8ca422d00437725e2b602a"
   version "1.0.0"
 
   head do
